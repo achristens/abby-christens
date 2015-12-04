@@ -2,7 +2,9 @@ body{
 	font-family: 'Roboto', sans-serif;
 
 }
-
+.glyphicon-leaf{
+	font-size: 24;
+}
 h1, h2, h3, h4, h5{
 	font-family: 'Roboto', sans-serif; font-weight: 100;
 }
@@ -69,25 +71,54 @@ header {
 }
 
 .who{
-	background-color: #554C44;
+	background-color: #5e5e5e;
 	color: #fff;
+	text-align: center;
+	padding-left: 5%;
+	padding-right:5%;
 }
 
 .about h2, p{
 	text-align: center;
 }
 
+.who-align-now{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
 .who-picture{
     background-repeat: no-repeat;
     background-position: 50%;
-    border-radius: 50%;
     width: 250px;
     height: 250px;
 }
 
-.form-control-feedback {
-position: relative;
-display: inline;
-top: 0;
-line-height: 14px;
+.who-align-then{
+	padding-bottom: 35px;
+}
+
+.who-padding{
+	padding-top: 15px;
+}
+.portfolio{
+	margin-bottom: 100px;
+}
+
+footer{
+	background-color: #5e5e5e;
+	color: #fff;
+}
+
+.social-footer{
+	text-align: center;
+}
+
+.social-bar{
+	margin-bottom: 35px;
+
+}
+
+.social-footer-img{
+	padding-right: 2%;
 }
