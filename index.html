@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">IMAGE</a>
+          <a class="navbar-brand glyphicon glyphicon-leaf" href="#" title="This button doesn't do anything yet, but the leaf looks cool, right?"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,10 +34,10 @@
           </ul>
      
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">What I Do</a></li>
-              <li><a href="#">Who I Am</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+              <li><a href="#about">What I Do</a></li>
+              <li><a href="#who">Who I Am</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -53,42 +53,45 @@
 
 <section>
   <div class="row about">
-    <div class="col-sm-6">
+    <a id="about"></a>
+    <div class="col-md-6 col-xs-12">
       <h2>Front-End Development</h2>
       <p>Need an online face for your business, cat, or wedding? You tell what you want it to look like, I make it happen. It's that easy.</p>
     </div>
-      <div class="col-sm-6">
+      <div class="col-md-6 col-xs-12">
         <h2>Holistic Design</h2>
-        <p>Having spent a <a href="#">past life</a> in holistic nutrition and natural supplementation, I know the industry well. I understand the message you're trying to get across, and how to make you look good on the internet.</p>
+        <p>Having spent a <a href="#who">past life</a> in holistic nutrition and natural supplementation, I know the industry well. I understand the message you're trying to get across, and how to make you look good on the internet.</p>
     </div>
 </section>
 
 <section class="who">
-  <div class="row">
-    <div class="col-sm-4 who-picture">
-      <!-- INSERT NERDY GLASSES PIC HERE -->
+  <a id="who"></a>
+    <div class="row who-align-now">
+      <div class="col-sm-4 col-xs-12 who-img">
+        <img src="img/code.png" class="who-picture">
+      </div>
+      <div class="col-sm-8 col-xs-12 who-padding">
+        <h2>Now</h2>
+        <p>I am a front-end ninja - in training. I have recently finished an intensive 12-week course in front end web development and I am eager to put my skills to work. I have taken a particular interest in holistic practitioners that are trying to reach a broader audience by creating an online platform for their business. With most people accessing websites from their mobiles, having a responsive design is more important than ever before.</p>
+      </div>
     </div>
-    <div class="col-sm-8">
-      <h2>Now</h2>
-      <p>I am a front-end ninja - in training. I have recently finished an intensive 12-week course in front end web development and I am eager to put my skills to work.</p>
-    </div>
-  </div>
 
-  <div class="row">
-      <div class="col-sm-8">
+  <div class="row who-align-then">
+      <div class="col-sm-8 col-xs-12 who-padding">
         <h2>Then</h2>
         <p>I was (well, technically I still am) a holistic nutritionist who took a special interest in well-rounded plant-based diets. I worked for myself, in gyms, for a natural chef, and in health food stores. I realized upon wanting to launch a website for my nutrition business that I was more excited about building my website than I was about launching my nutrition business, and the rest is history.</p>
       </div>
-      <div class="col-sm-4">
-        <img src="img/abby-edit.jpg" class="who-picture">
+      <div class="col-sm-4 col-xs-12">
+        <img src="img/nutrition.png" class="who-picture">
       </div>
     </div>
 </section>
 <section>
   <div class="row portfolio">
+  <a id="portfolio"></a>
     <div class="col-sm-6">
       <h2>Portfolio</h2>
-      <p>Look at all this cool stuff I've made!</p>
+      <p>Coming soon!</p>
 
     </div>
     <div class="col-sm-6">
@@ -99,77 +102,38 @@
 <section>
 <div class="row">
   <div class="col-sm-12">
-  <h2 id="logo">Contact Form</h2>
-
-  <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
-        action="https://achristens.wufoo.com/forms/zacbu1p15625qe/#public">
-    
-  <ul>
-  <li id="foli1" class="notranslate      ">
-  <label class="desc" id="title1" for="Field1">
-  Name
-  <span id="req_1" class="req">*</span>
-  </label>
-  <div>
-  <input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup=""       required />
-  </div>
-  </li>
-  <li id="foli2" class="notranslate      ">
-  <label class="desc" id="title2" for="Field2">
-  Email
-  <span id="req_2" class="req">*</span>
-  </label>
-  <div>
-  <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2"       required />
-  </div>
-  </li>
-  <li id="foli3"
-  class="notranslate      "><label class="desc" id="title3" for="Field3">
-  Message
-  </label>
-
-  <div>
-  <textarea id="Field3"
-  name="Field3"
-  class="field textarea medium"
-  spellcheck="true"
-  rows="10" cols="50"
-
-  tabindex="3"
-  onkeyup=""
-         ></textarea>
-
-  </div>
-  </li> <li class="buttons ">
-  <div>
-
-          <input id="saveForm" name="saveForm" class="btTxt submit"
-      type="submit" value="Submit"
-   /></div>
-  </li>
-
-  <li class="hide">
-  <label for="comment">Do Not Fill This Out</label>
-  <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-  <input type="hidden" id="idstamp" name="idstamp" value="uhHW38xGZ0OMBR2mwshfeBcmlq4JTFRLC53pUGmHS+g=" />
-  </li>
-  </ul>
-  </form>
-   
-
-  <a class="powertiny" href="http://www.wufoo.com/" title="Powered by Wufoo"
-  style="display:block !important;visibility:visible !important;text-indent:0 !important;position:relative !important;height:auto !important;width:95px !important;overflow:visible !important;text-decoration:none;cursor:pointer !important;margin:0 auto !important">
+    <a id="contact"></a>
+    <h2>Contact Form</h2>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/53273715349258"></script>
     </div>
   </div>
 </section>
 
 <section>
   <footer>
+    <div class="row">
+      <div class="col-xs-12 social-footer">
+        <h2>I'm Social, Let's Connect</h2>
+          <div class="row">
+            <div class="col-xs-12 social-bar">
+              <a href="http://www.twitter.com/abbychristens" target="_blank" class="social-footer-img"><img src="img/social-twitter.png"></a>
+               <a href="http://www.instagram.com/achristens" target="_blank" class="social-footer-img"><img src="img/social-ig.png" /></a>
+              <a href="https://ca.linkedin.com/in/abigail-christens-8898bb30" target="_blank"><img src="img/social-in.png" /> </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <p>Copyright © 2015 | Abby Christens</p>
+          </div>
+      </div>
+    </div>
   </footer>
 </section>
     
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap_override.js"></script>
+
 </container>
 </body>
 </html>
